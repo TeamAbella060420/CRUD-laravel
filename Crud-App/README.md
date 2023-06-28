@@ -23,3 +23,5 @@ DB_DATABASE=laravel_ajax `This is the name of the data base in the my SQL`
         });
     }`
 9. Migrate the migration in to the database `php artisan migrate`
+10. Check the database if the tables are created
+11. Work on the Model

@@ -22,3 +22,4 @@ DB_DATABASE=laravel_ajax `This is the name of the data base in the my SQL`
             $table->timestamps();
         });
     }`
+9. Migrate the migration in to the database `php artisan migrate`

@@ -24,4 +24,13 @@ DB_DATABASE=laravel_ajax `This is the name of the data base in the my SQL`
     }`
 9. Migrate the migration in to the database `php artisan migrate`
 10. Check the database if the tables are created
-11. Work on the Model
+11. Work on the Model in the create Employee.php file 
+    `    protected $fillable = [
+        'first_name',
+        'last_name',
+        'email',
+        'phone',
+        'post',
+        'avatar',
+    ];
+` // add this into the employee extend model

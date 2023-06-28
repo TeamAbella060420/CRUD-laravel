@@ -9,7 +9,7 @@ DB_DATABASE=laravel_ajax `This is the name of the data base in the my SQL`
 6. php artisan make:model Employee -m `Create a model and migration`
 7. php artisan make:controller EmployeeController `Create a controller` 
 8. Define a schema in the added migaration file
-    public function up()
+    `public function up()
     {
         Schema::create('employees', function (Blueprint $table) {
             $table->id();
@@ -21,4 +21,4 @@ DB_DATABASE=laravel_ajax `This is the name of the data base in the my SQL`
             $table->string('avatar');
             $table->timestamps();
         });
-    }
+    }`

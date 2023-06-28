@@ -34,3 +34,9 @@ DB_DATABASE=laravel_ajax `This is the name of the data base in the my SQL`
         'avatar',
     ];
 ` // add this into the employee extend model
+12. Go to web.php file on routes
+    a. Create a simple route
+        `Route::get('/', [EmployeeController::class, 'index']);`
+13. Go to resourse->views directory.
+    a. Delete the welcome.blase.php file
+    b. Create new file in views directory 

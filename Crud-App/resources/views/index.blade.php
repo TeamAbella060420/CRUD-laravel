@@ -211,7 +211,7 @@
                             $("#post").val(response.post);
                             $("#avatar").html(
                                 `<img src="storage/images/${response.avatar}" width="100" class="img-fluid img-thumbnail">`
-                                );
+                            );
                             $("#emp_id").val(response.id);
                             $("#emp_avatar").val(response.avatar);
                         }
@@ -294,7 +294,11 @@
                             // console.log(JSON.parse(response), 'fetch');
                             $("#show_all_employees").html(response);
                             $("table").DataTable({
-                                order: [0, 'asc']
+                                order: [0, 'asc'],
+                                columnDefs: [{
+                                    targets: [1, 2, 3, 4, 5, 6],
+                                    orderable: false
+                                }]
                             });
                         }
                     });

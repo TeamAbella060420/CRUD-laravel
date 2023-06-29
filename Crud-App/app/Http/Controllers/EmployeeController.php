@@ -24,7 +24,7 @@ class EmployeeController extends Controller
 			$output .= '<table class="table table-striped table-sm text-center align-middle">
                 <thead>
                   <tr>
-                    <th>ID</th>
+                    <th class="sortable">ID</th>
                     <th>Avatar</th>
                     <th>Name</th>
                     <th>E-mail</th>

@@ -1,7 +1,6 @@
 body {
     background-image: url('../global/images/bg-main.webp') !important;
-    overflow: hidden;
-    height: 100vh;
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
 }

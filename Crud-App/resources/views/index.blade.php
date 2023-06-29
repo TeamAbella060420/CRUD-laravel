@@ -203,7 +203,7 @@
                             _token: '{{ csrf_token() }}'
                         },
                         success: function(response) {
-                            console.log(response, 'sss');
+                            console.log(response, 'edit');
                             $("#fname").val(response.first_name);
                             $("#lname").val(response.last_name);
                             $("#email").val(response.email);

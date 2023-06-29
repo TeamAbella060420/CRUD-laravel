@@ -305,6 +305,12 @@
                 }
             });
         </script>
+
+        <footer>
+            <div class="footer text-center mb-6">
+                <p>&copy; Engr. Jezreel Abella </p>
+            </div>
+        </footer>
     </body>
 
 </html>

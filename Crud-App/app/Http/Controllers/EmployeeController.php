@@ -102,7 +102,14 @@ class EmployeeController extends Controller
 			$fileName = $request->emp_avatar;
 		}
 
-		$empData = ['first_name' => $request->fname, 'last_name' => $request->lname, 'email' => $request->email, 'phone' => $request->phone, 'post' => $request->post, 'avatar' => $fileName];
+		$empData = [
+			'first_name' => $request->fname,
+			'last_name' => $request->lname,
+			'email' => $request->email,
+			'phone' => $request->phone, 
+			'post' => $request->post, 
+			'avatar' => $fileName
+		];
 
 		$emp->update($empData);
 		return response()->json([
